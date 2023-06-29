@@ -12,10 +12,9 @@
 }
 
 body {
-    background-image: linear-gradient(to left ,rgba(13,236,188,0.6),rgba(14,153,123,0.6)) ,  url(./assets/img/wes-hicks-4-EeTnaC1S4-unsplash.jpg);
+    background-image: linear-gradient(to left ,rgba(134, 140, 138, 0.6),rgba(4, 98, 80, 0.6)) ,  url(./assets/img/wes-hicks-4-EeTnaC1S4-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
 }
 
 a {
@@ -66,4 +65,50 @@ a {
     border-radius: 25px;
     margin-top: 20px;
     cursor: pointer;
+}
+
+.section-templates {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+ 
+}
+
+.sec-img {
+    width: 15%;
+    height: 15%;
+    padding-top: 20px;
+}
+
+.sec-first-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.section-tmp-div {
+    height: 40%;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0px 15px 0 grey;
+    padding:10px;
+    margin-top: 160px;
+    transition: .4s;
+}
+
+.section-tmp-div:hover {
+    box-shadow: 0 0px 5px 0 grey;
+    transform: scale(1.05,1.05);
+}
+
+.sec-desp-title {
+    color: grey;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: lighter;
 }
