@@ -168,9 +168,9 @@ a {
 }
 
 .sec-btn-course:hover {
-    box-shadow: 0 0px 5px 0 grey;
     background-color: #00DAD6;
     border: 2px solid #00DAD6;
+    box-shadow: 0 0px 5px 0 grey;
     transform: scale(.97,.97);
 }
 
@@ -190,4 +190,60 @@ a {
     font-size: 15px;
     color: grey;
     font-weight: lighter;
+}
+
+.section-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    row-gap: 50px;
+    justify-items: center;
+}
+
+.grid-section {
+    align-items: center;
+}
+
+.sec-grid-p {
+   
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: lighter;
+    
+}
+
+.sec-grid-img {
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.section-grid-div {
+    width: 600px;
+    height: 200px;
+    background-color: #F1F1F1;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0px 20px 0px grey;
+    transition: .3s;
+}
+
+.section-grid-div:hover {
+    box-shadow: 0 0px 5px 0 grey;
+    transform: scale(.97,.97);
+    background-color: #00DAD6;
+    color: white;
+    font-weight: bolder;
+}
+
+.sec-inner-div {
+    display: flex;    
+}
+
+.section-names {
+    margin: 30px 15px;
+    font-size: 17px;
 }
