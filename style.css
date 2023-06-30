@@ -3,19 +3,24 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .header-container {
     display: flex;
     justify-content: space-around;
-    margin: 15px;
     font-size: 17px;
     font-weight: lighter;
+    padding: 30px;
 }
 
 body {
     background-image: linear-gradient(to left ,rgba(134, 140, 138, 0.6),rgba(4, 98, 80, 0.6)) ,  url(./assets/img/wes-hicks-4-EeTnaC1S4-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 965px;
+    height: 990px;
 }
 
 a {
@@ -24,8 +29,7 @@ a {
 
 .header-nav-container {
     display: flex;
-    gap: 30px;
-    align-items: center;   
+    gap: 30px;   
 }
 
 .header-links {
@@ -302,3 +306,37 @@ a {
     border-radius: 25px;
     cursor: pointer;
 }
+
+.body-page2 {
+    background-image: none;
+}
+
+.header-page2 {
+    height: 350px;
+    width: 96%;
+    background-color: #00DAD6;
+    justify-content: space-around;
+    
+}
+
+.main-page2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-container-page2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    transform: translate(100% , 60%);
+    color: white;
+    position: absolute;    
+}
+
+.sec-title-page2 {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
