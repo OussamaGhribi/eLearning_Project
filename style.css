@@ -322,6 +322,7 @@ a {
 .main-page2 {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .section-container-page2 {
@@ -329,7 +330,7 @@ a {
     flex-direction: column;
     text-align: center;
     align-content: center;
-    transform: translate(100% , 60%);
+    margin-top: 110px;
     color: white;
     position: absolute;    
 }
@@ -372,9 +373,52 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #00DAD6;
     font-size: 18px;
     color: #313131;
+    width: 50%;
+}
+
+.sec-msg div {
+    display: flex;
+    flex-direction: column;
 }
 
 
+.sec-msg div input {
+    width: 600px;
+    height: 30px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+.inp-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+textarea {
+    font-size: 20px;
+    border: 2px solid grey;
+    border-radius: 0px 20px 0px 20px; 
+}
+
+.btn-page3 {
+    display: flex;
+    background: grey;
+    border: 2px solid grey;
+    border-radius: 25px;
+    font-size: 17px;
+    box-shadow: 0 0 16px 0px grey;
+    padding: 10px 60px;
+    margin-top: 50px;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-page3:hover {
+    background: #008FEC;
+    border: 2px solid #008FEC;
+    box-shadow: 0 0 5px 0 grey;
+    border-radius: 5px 20px 5px 20px;
+}
